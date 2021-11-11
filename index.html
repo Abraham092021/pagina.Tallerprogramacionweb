@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEC-INFORMATIC</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experiences.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img
+            height="50"
+            width="50"
+            src="img/logo-picture.png"
+            alt="programador"
+          />
+          <div class="logotype">
+            TEC-INFORMATIC<br />
+          </div>
+        </a>
+        <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/hamburger-icon.svg" alt="abrir menú" />
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon.svg" alt="cerrar menú" />
+          </button>
+          <li><a href="#profile" <span class="icon-home"></span> Inicio</a></li>
+          <li><a href="#experience"> <span class="icon-earth"></span> Experiencia</a></li>
+          <li><a href="#skills"> <span class="icon-wrench"></span> Servicios</a></li>
+          <li><a href="#contact"> <span class="icon-mail4"></span> Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile" id="profile">
+        <div class="profile-info">
+          <h1 class="profile-title">Hola, somos <br />TEC-INFORMATIC</h1>
+          <p class="profile-details">
+           Una empresa que brinda soluciones en informática; con productos y servicios innovadores que procura permanentemente la satisfacción de sus clientes, anticipándose a sus necesidades y superando sus expectativas.
+          </p>
+          <button class="profile-btn">Descargar catalogo</button>
+        </div>
+        <span class="profile-img-section">
+          <img
+            class="profile-img"
+            src="img/professional-profile.png"
+            alt="programador"
+          />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+
+    <section class="experiences" id="experience">
+      <img src="img/wave.svg" alt="división" class="wave">
+      <div class="experiences-body">
+        <h2 class="experiences-title">Experiencia</h2>
+        <div class="experiences-grid">
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2020-2021</div>
+            <div class="experience-company">GRUPO COMPUDEL SRL</div>
+            <div class="experience-position">Technical Support</div>
+            <div class="experience-description">
+              Desarrollo de soluciones para un cliente.
+              Asesoramiento para la compra de equipos informaticos y a la
+              vez Orientando adecuadamente al cliente sobre nuestros productos 
+              de acuerdo a su requerimiento
+              para un Cybercafe con su emsamblaje y instalacion respectiva
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">2019-2020</div>
+            <div class="experience-company">Digital Group Inc</div>
+            <div class="experience-position"> Software Engineer</div>
+            <div class="experience-description">
+              Implementación de una plataforma que permite
+              de forma inteligente almacenar y registar compra y ventas 
+              Usamos tecnologías como SQLserver, GraphQL, VisualBasic
+              y otras que nos permitieron lograr una
+              mejora notable en el rendimiento de la plataforma.
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2018-2019</div>
+            <div class="experience-company">Endava</div>
+            <div class="experience-position">Web Developer</div>
+            <div class="experience-description">
+              Desarrollo web para un cliente en la industia
+              hotelera.
+              Implementamos una pagina web para que sea un canal directo de 
+              reservas y al mismo tiempo para que se pueda conocer las ofertas
+              y poder visualizar imagenes del lugar
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/wave.svg" alt="división" class="wave wave_bottom">
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">Servicios</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">Soporte Tecnico Remoto</li>
+          <li class="skills-skill">Emsamblaje</li>
+          <li class="skills-skill">Venta de Impresoras</li>
+          <li class="skills-skill">Venta de software</li>
+          <li class="skills-skill">Asesoria</li>
+          <li class="skills-skill">Creacion paginas Web</li>
+          <li class="skills-skill">Creacion de software</li>
+        </ul>
+      </section>
+    </div>
+     
+      <section class="contact vertical-padding"  id="contact">
+        <h2 class="contact-title">Contacto</h2>
+      </section>
+  </body>
+</html>
